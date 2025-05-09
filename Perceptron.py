@@ -17,7 +17,6 @@ def createInputsByUser():
     valueInput.pack(side=tk.TOP, fill=tk.X, padx=5, pady=5)
     submitButton = tk.Button(inputValuesFrame, text="Guardar Input", command=lambda:processInput(valueInput))
     submitButton.pack(side=tk.TOP, padx=5, pady=5)
-    inputValuesFrame.destroy()
 
 def processInput(valueInput):
         global inputList
